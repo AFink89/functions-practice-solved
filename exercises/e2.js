@@ -24,10 +24,6 @@ console.log(rectArea(3, 2));
 
 // Your code goes here:
 
-function rectArea(length, width) {
-  return length * width;
-}
-
 let room1 = rectArea(4, 6);
 let room2 = rectArea(13, 3);
 let room3 = rectArea(4, 8);
