@@ -24,12 +24,6 @@ let room1 = rectArea(4, 6);
 let room2 = rectArea(13, 3);
 let room3 = rectArea(4, 8);
 
-function totalRoomsArea(room1, room2, room3) {
-  return room1 + room2 + room3;
-}
-
-console.log(totalRoomsArea(room1, room2, room3));
-
 
 /**
  * =============================================================
@@ -44,8 +38,13 @@ function totalRoomsArea(area1, area2, area3) {
   return area1 + area2 + area3;
 }
 
+console.log(room1);
+console.log(room2);
+console.log(room3);
+console.log(totalRoomsArea(room1, room2, room3));
+
 // ✅ Define the result so it exists when referenced later
-const result = totalRoomsArea(room1, room2, room3);
+const result = () => console.log(totalRoomsArea(room1, room2, room3));
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-2"
